@@ -28,6 +28,7 @@ public class CustomerServiceApplication{
                         .email(name + "@gmail.com")
                         .build();
                 customerRepository.save(customer);
+
             });
         };
     }
